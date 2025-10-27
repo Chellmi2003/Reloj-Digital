@@ -1,0 +1,33 @@
+body {
+    font-family: 	Copperplate, fantasy;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('pexels-solyartphotos-34388565.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed; 
+}
+
+.hero {
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.contenedor {
+    text-align: center;
+}
+
+.reloj {
+    font-size: 4rem;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.reloj span {
+    margin: 0 5px;
+}
